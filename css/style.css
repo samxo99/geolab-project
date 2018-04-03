@@ -8,35 +8,80 @@
          url('../fonts/alk-rex-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/alk-rex-bold-webfont.svg#alk_rexbold') format('svg'); /* Legacy iOS */
 }
-
-
 .service {
   height: 250px;
   background-color: #ddd;
   border: 1px solid black;
 }
 .container-fluid {
-
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.container {
 
+@media  (min-width: 0px) {
+.on-text  {
+
+  position:absolute;
+  top: 0%;
+  right: 0%;
+
+  color: white;
+  background-color:rgba(0,0,0,0.3);
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'ALK Rex Bold';
+
+  font-size: 15px;
+  max-width: 535px;
 }
+}
+
+@media  (min-width: 535px) {
+.on-text  {
+
+  position:absolute;
+  top: 50%;
+  right: 0%;
+  color: white;
+  background-color:rgba(0,0,0,0.3);
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'ALK Rex Bold';
+
+  font-size: 40px;
+  max-width: 99999px;
+}
+}
+
+
+
+
+
+
+.mtavari-foto{
+  position:relative;
+}
+
+.col-12{
+  top: 0%;
+  right: 0%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .navbar-nav{
   font-family: 'ALK Rex Bold';
 }
-.nav-item {
+.navbar-brand{
+  font-family: 'ALK Rex Bold';
 }
-
-
 h1, h6, h3, p {
 	/*font-family: 'Chicle', cursive;*/
 }
-.description {}
+.description {
 
-img {
-width: 100%;
 }
-
+img  { width: 100%; }
 .image-container{
 
       /* height: 386px;
@@ -45,8 +90,4 @@ width: 100%;
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center center;*/
-}
-.col-12 {
-  padding-right: 0px;
-  padding-left: 0px;
 }
