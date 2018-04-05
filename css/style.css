@@ -76,12 +76,19 @@ background-color: #ccc;
 .navbar-brand{
   font-family: 'ALK Rex Bold';
 }
-
-.carousel {
-  /* height: 500px; */
+h1 h2 {
+  font-family: 'ALK Rex Bold';
+}
+.carousel-caption {
+  color: #002db3;
 }
 
-
+.carousel-control-prev {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+.carousel-control-next{
+  background-color: rgba(204, 204, 204, 0.3);
+}
 img  { width: 100%; }
 
 .description {
