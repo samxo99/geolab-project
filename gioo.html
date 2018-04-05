@@ -9,6 +9,7 @@
    <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="js/js.js">
   </head>
  <body>
   <header class="container-fluid px15 ">
@@ -58,6 +59,7 @@
       <div class="service col-lg-3 col-sm-6 col-12" style="padding: 10px;">
           <h3>კეპლერი</h3>
           <img src="img/monster-1.jpg" alt="monster">
+
        </div>
       <div class="service col-lg-3 col-sm-6 col-12" style="padding: 10px;">
         <h3>ჯონი</h3>
@@ -181,12 +183,12 @@
       </div>
     </div>
     <div class="col-md-4 mb-3">
-      <label for="validationServerUsername">Username</label>
+      <label for="validationServerUsername">მეტსახელი</label>
       <div class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroupPrepend3">@</span>
         </div>
-        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="შეიყვანეთ თქვენი მეტსახელი" aria-describedby="inputGroupPrepend3" required>
         <div class="invalid-feedback">
           Please choose a username.
         </div>
@@ -209,8 +211,8 @@
       </div>
     </div>
     <div class="col-md-3 mb-3">
-      <label for="validationServer05">Zip</label>
-      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+      <label for="validationServer05">ზიპ-კოდი</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="ზიპ-კოდი" required>
       <div class="invalid-feedback">
         Please provide a valid zip.
       </div>
@@ -223,7 +225,7 @@
         ვეთანხმები წესებს
       </label>
       <div class="invalid-feedback">
-        You must agree before submitting.
+        გთხოვთ წაკითხვამდე არ დააწვეთ ვეთანხმების ღილაკს
       </div>
     </div>
   </div>
@@ -232,12 +234,16 @@
      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
    </div>
 
-  <button class="btn btn-primary" type="submit">Submit form</button>
+  <button class="btn btn-primary" type="submit">გაგზავნა</button>
+
+  <div class="nope dark"></div>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=63&layout=button&action=like&size=large&show_faces=true&share=false&height=65&appId" width="112" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
  </div>
 </form>
 
 
-<div class="nope dark"></div>
+
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
