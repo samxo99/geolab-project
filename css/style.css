@@ -11,8 +11,11 @@
 
 .dark {
 background-color: #ccc;
+padding-bottom: 15px;
 }
-.container-fluid {
+
+
+.px15{
   padding-right: 15px;
   padding-left: 15px;
 }
