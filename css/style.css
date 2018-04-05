@@ -21,7 +21,6 @@ padding-bottom: 15px;
 }
 .nope {
   padding-top: 56px;
-  background-color: white;
 }
 @media  (min-width: 0px) {
 .on-text  {
@@ -80,6 +79,9 @@ padding-bottom: 15px;
   font-family: 'ALK Rex Bold';
 }
 h1 h2 {
+  font-family: 'ALK Rex Bold';
+}
+label {
   font-family: 'ALK Rex Bold';
 }
 .carousel-caption {
