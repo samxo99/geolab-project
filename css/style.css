@@ -78,8 +78,11 @@ padding-bottom: 15px;
 .navbar-brand{
   font-family: 'ALK Rex Bold';
 }
-h1 h2 {
+/* h1 h2  {
   font-family: 'ALK Rex Bold';
+} */
+.bpg {
+    font-family: "BPG Nino Mkhedruli Bold", sans-serif;
 }
 label {
   font-family: 'ALK Rex Bold';
@@ -87,7 +90,10 @@ label {
 .carousel-caption {
   color: #002db3;
 }
-
+.skill{
+  border:15px solid;
+  border-color:  #ccc;
+}
 .carousel-control-prev {
   background-color: rgba(204, 204, 204, 0.3);
 }
